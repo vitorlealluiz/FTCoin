@@ -3,7 +3,7 @@
 using namespace std;
 
 
-/*Esse método recebe as opções do menu e seu título,
+/*Recebe as opções do menu e seu título,
 útil pois vamos trabalhar com vários menus diferentes*/
 int Controller::exibirMenu(vector<string> opcoes, string titulo){
     Menu menu(opcoes, titulo);
